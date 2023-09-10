@@ -1,0 +1,11 @@
+/* Hide the scrollbar but still allow scrolling */
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+  /* -ms-overflow-style: none; IE and Edge */
+  /* scrollbar-width: none; Firefox */
+  scroll-snap-type: y mandatory;
+  transition: all 5s ease-out;
+}
+
